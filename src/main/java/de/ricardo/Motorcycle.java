@@ -11,9 +11,13 @@ public class Motorcycle extends Vehicle {
         this.type = type;
     }
 
-    @Override
-    public void displayInfo(){
-        super.displayInfo();
-        System.out.println("Type: " + type);
+    String getType() {
+        return type;
     }
+
+     // @Override
+    // public void displayInfo(){
+    //     super.displayInfo();
+     //   System.out.println("Type: " + type);
+    // }
 }

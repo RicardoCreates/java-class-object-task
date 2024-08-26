@@ -16,6 +16,7 @@ public class Main {
 
         System.out.println("Motorcycle Info:");
         motorcycle.displayInfo();
+        System.out.println("Motorcycle Type: " + motorcycle.getType());
 
     }
 }
